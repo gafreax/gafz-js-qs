@@ -2,10 +2,9 @@
   "name": "gafz-js-qs",
   "version": "1.0.1",
   "description": "Simple lib to get query string from url in javascript",
-  "main": "src/app.js",
+  "main": "src/qs.js",
   "scripts": {
-    "test": "jest",
-    "build": "browserify src/app.js -o build/bundle.js"
+    "test": "jest"
   },
   "author": "Gabriele Fontana <gafreax@gmail.com>",
   "license": "ISC"

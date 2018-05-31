@@ -2,13 +2,15 @@
 
 <head>
     <title>Simple test on browser</title>
-    <script src="../bin/bundle.js"></script>
+    <script src="../src/qs.js"></script>
 </head>
 
 <body>
+    <noscript>
+        Can't Work in 2018!!!
+    </noscript>
     <script>
-        var qs = require('gafz-js-qs');
-        document.write(qs.getParam('z', '?z=23'));
+        document.write(getParam('z', '?z=23'));
     </script>
 </body>
 
