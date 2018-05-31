@@ -1,6 +1,6 @@
 {
   "name": "gafz-js-qs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple lib to get query string from url in javascript",
   "main": "src/qs.js",
   "scripts": {
