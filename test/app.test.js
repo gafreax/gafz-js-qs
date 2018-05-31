@@ -1,4 +1,4 @@
-const qs = require("./app");
+const qs = require("../src/app");
 
 test("Expect to find param and value on query string and ", () => {
   const search = "?x=5&y=45&foo=bar";
